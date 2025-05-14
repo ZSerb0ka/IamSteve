@@ -1,0 +1,145 @@
+nav,.navbar, .grassblock{
+    background-image: url(img/grassblock\ texture\ 2.jpg);
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+
+  footer{
+    background-image: url(img/grassblock\ texture\ 3.jpg);
+    padding: 1rem;
+    text-align: center;
+    height: 250px;
+  }
+
+nav a{
+  color: rgb(97, 56 , 34);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.slider {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slide {
+    min-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+  }
+
+  .arrow.left {
+    left: 10px;
+  }
+
+  .arrow.right {
+    right: 10px;
+  }
+body{
+    background-image: url(img/grassblock\ texture.jpg);
+}
+  
+
+  .slider {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slide {
+    min-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+  }
+
+  .arrow.left {
+    left: 10px;
+  }
+
+  .arrow.right {
+    right: 10px;
+  }
+  .video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  iframe {
+    width: 890px;
+    height: 500px;
+  }
+body{
+  margin: 0;
+  height: 2000px;
+  background-size: cover;
+}
+
+.social-icons a {
+  color: black;
+  margin: 0 10px;
+  font-size: 34px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: black;
+}
