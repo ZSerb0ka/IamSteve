@@ -123,6 +123,8 @@ body{
   margin: 0;
   height: 2000px;
   background-size: cover;
+  color: white;
+  font-weight: bold;
 }
 
 .social-icons a {
@@ -192,4 +194,36 @@ body{
 
 .card-title{
   text-align: center;
+}
+
+#fooldal{
+  color: green;
+  font-weight: bold;
+}
+
+#csel{
+  color: green;
+  font-weight: bold;
+}
+
+#szerep{
+  color: green;
+  font-weight: bold;
+}
+
+#bemutato{
+  color: green;
+  font-weight: bold;
+}
+
+.minden{
+  margin: 50px ;
+}
+
+#tortenet{
+  font-size: large;
+}
+
+h1{
+  margin-bottom: 15px;
 }
