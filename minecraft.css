@@ -1,7 +1,19 @@
+.卍, a{
+  color: black;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: myFirstFont;
+  src: url(https://www.fontspace.com/minecraft-ten-font-f40317);
+}
+
 nav,.navbar, .grassblock{
     background-image: url(img/grassblock\ texture\ 2.jpg);
     padding: 1rem;
     text-align: center;
+    height: 400px;
   }
 
 
@@ -15,34 +27,12 @@ nav,.navbar, .grassblock{
 
 nav a{
   color: rgb(97, 56 , 34);
-  margin: 0 1rem;
+  margin: 0 3rem;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
-.slider {
-    position: relative;
-    width: 600px;
-    height: 400px;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-  }
-
-  .slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-    height: 100%;
-  }
-
-  .slide {
-    min-width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-  }
 
   .arrow {
     position: absolute;
@@ -77,9 +67,10 @@ body{
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    margin-left: 25%;
-    margin-right: 25%;
+    background-position: center;
     margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 22.75%;
   }
 
   .slides {
@@ -124,8 +115,9 @@ body{
     height: 100vh;
   }
   iframe {
-    width: 890px;
+    width: 1000px;
     height: 500px;
+    background-position: center;
   }
 body{
   margin: 0;
@@ -142,4 +134,62 @@ body{
 
 .social-icons a:hover {
   color: black;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150%; /* Magasság 100%-ra állítva, hogy egységesek legyenek */
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  margin: 50px;
+  border: none;
+  font-size: large;
+}
+
+.card-img-top {
+  object-fit: cover;  /* A képek arányos kitöltése */
+  height: 200px;       /* Minden kép azonos magasságú */
+  width: 100%;         /* A képek teljes szélességben elnyúlnak */
+}
+
+.card-body {
+  flex-grow: 1; /* A card-body kitölti a rendelkezésre álló helyet, ha a kép alatti tartalom nő */
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.card-title {
+  margin-bottom: 10px; /* A cím alatti térköz növelése */
+  font-size: x-large;
+}
+
+.card-text {
+  flex-grow: 1; /* Ha a szöveg nagyobb, a card-body kitölti a teret */
+  text-align: center;
+  
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-3 {
+  margin-bottom: 20px; /* Kártyák közötti térköz */
+}
+
+.btn {
+  margin-top: 10px; /* A gombok és a szöveg közötti térköz */
+}
+
+.card-title{
+  text-align: center;
 }

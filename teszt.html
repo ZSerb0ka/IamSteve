@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Scroll háttérkép váltás</title>
+  <style>
+    body {
+      margin: 0;
+      height: 3000px;
+      background-size: cover;
+      background-attachment: fixed;
+      transition: background-image 0.5s;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  const images = [
+  "url('img/grassblock texture 2.jpg')",
+  "url('img/grassblock texture.jpg')",
+  "url('img/grassblock texture 3.jpg')",
+  ];
+
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+    const maxScroll = document.body.scrollHeight - window.innerHeight;
+    const section = Math.floor((scrollY / maxScroll) * images.length);
+    document.body.style.backgroundImage = images[section];
+  });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+<div class="collapse, grassblock" id="navbarToggleExternalContent" data-bs-theme="dark">
+  <div class="p-4">
+    <h1 class="text-body-emphasis h2">Egy Minecraft Film</h1>
+    <span class="text-body-secondary"><img src="" size="150px" alt=""></span>
+  </div>
+</div>
+<nav class="navbar navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/qc9-9SicfT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+
