@@ -227,3 +227,8 @@ body{
 h1{
   margin-bottom: 15px;
 }
+
+.cselekmenyc{
+  margin: 10%;
+  font-size: x-large;
+}
